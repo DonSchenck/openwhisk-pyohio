@@ -1,10 +1,12 @@
 # openwhisk-pyohio
-Code and instructions for PyOhio 2018 session "Serverless? How About VENDORLESS?!"
+## Code and instructions for PyOhio 2018 session "Serverless? How About VENDORLESS?!"
 
 ### NOTE: This repo will be removed on July 1, 2019
 
-# Serverless? How about VENDORLESS?
-## PyOhio 2018
+## Want More?
+* developer.redhat.com
+* bit.ly/faas-tutorial
+* https://learn.openshift.com/serverless
 
 ## Prerequisites
 * minishift
@@ -73,3 +75,8 @@ WEB_URL=`wsk -i action get hello-web --url | awk 'FNR==2{print $1".json"}'` # # 
 AUTH=`oc get secret whisk.auth -n openwhisk -o yaml | grep "system:" | awk '{print $2}'` # # (2)
 curl -k $WEB_URL
 ```
+## Want More?
+* developer.redhat.com
+* bit.ly/faas-tutorial
+* https://learn.openshift.com/serverless
+
