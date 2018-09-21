@@ -4,14 +4,14 @@
 ### NOTE: This repo will be removed on July 1, 2019
 
 ## Want More?
-* developer.redhat.com
-* bit.ly/faas-tutorial
+* https://developer.redhat.com
+* https://bit.ly/faas-tutorial
 * https://learn.openshift.com/serverless
 
 ## Prerequisites
-* minishift
-* OpenWhisk CLI (wsk)
-* OpenWhisk on OpenShift https://github.com/projectodd/openwhisk-openshift
+* [minishift](https://github.com/minishift/minishift)
+* [OpenWhisk CLI](https://github.com/apache/incubator-openwhisk-cli) (wsk)
+* [OpenWhisk on OpenShift](https://github.com/projectodd/openwhisk-openshift)
 
 ## Make sure `wsk` is in your path
 (example):
